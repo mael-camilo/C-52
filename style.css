@@ -1,0 +1,100 @@
+h1 {
+    color: white;
+    margin-left: 440px;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.menu{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.menu a{
+margin-left: 30px;
+}
+a:link{
+    color:lavender;
+}
+a:visited{
+    color: rgb(17, 62, 107);
+}
+.item{
+    position: relative;
+}
+.item p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.header h1{
+    opacity: 1; 
+}
+.header:hover h1{
+    opacity: 0;
+}
+h2{
+    opacity: 1; 
+}
+h2:hover {
+    opacity: 0;
+}
+p{
+    opacity: 1; 
+}
+p:hover {
+    opacity: 0;
+}
+.qwe{
+    opacity: 1; 
+}
+.qwe:hover{
+    opacity: 0;
+}
+.qwer{
+    opacity: 1; 
+}
+.qwer:hover{
+    opacity: 0;
+}
+.qwert{
+    opacity: 1; 
+}
+.qwert:hover{
+    opacity: 0;
+}
